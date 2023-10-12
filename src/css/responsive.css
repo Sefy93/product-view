@@ -1,0 +1,148 @@
+
+
+
+
+@media (max-width:1024px){
+    .content{
+        padding: 20px;
+    }
+    .subtitle{
+        font-size: 0.6em;
+    }
+    
+    .content h1{
+        font-size: 1.7em;
+        line-height: normal;
+        padding-bottom: 15%;
+    }
+    
+    .discription{
+        font-size: 0.7em;
+        padding-bottom: 15%;
+    }
+    .content div{
+        padding-bottom: 15%;
+    }
+    .lessPrice{
+        font-size: 1.3em;
+    }
+    .highPrice{
+        font-size: 0.7em;
+    }
+    .btn{
+        font-size: 0.7em;
+        padding: 10px;
+    }
+        .btn img{
+            height: 15px;
+            width: 15px;
+        }
+}
+
+@media (max-width:768px){
+
+    .container{
+        width: 70%;
+    }
+    .content{
+        padding: 20px;
+    }
+    .subtitle{
+        font-size: 0.6em;
+    }
+    
+    .content h1{
+        font-size: 2em;
+        line-height: normal;
+        padding-bottom: 8%;
+    }
+    
+    .discription{
+        font-size: 0.8em;
+        padding-bottom: 8%;
+    }
+    .content div{
+        padding-bottom: 15%;
+    }
+    .lessPrice{
+        font-size: 1.5em;
+    }
+    .highPrice{
+        font-size: 0.8em;
+    }
+    .btn{
+        font-size: 0.8em;
+        padding: 15px;
+    }
+        .btn img{
+            height: 20px;
+            width: 20px;
+        }
+}
+
+@media (max-width:425px){
+ body{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+ }
+
+    .container{
+        
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+       
+        margin-top: 20px;
+    }
+
+    .image{
+        width: 100%;
+        height: 300px;
+    }
+    .content{
+        
+        width: 100%;
+    }
+    .subtitle{
+        font-size: 0.8em;
+    }
+    
+    .content h1{
+        font-size: 2.1em;
+        line-height: normal;
+        padding-bottom: 8%;
+        
+    }
+    
+    .discription{
+        font-size: 1em;
+        padding-bottom: 8%;
+    }
+    .content div{
+        padding-bottom: 8%;
+    }
+    .lessPrice{
+        font-size: 2em;
+    }
+    .highPrice{
+        font-size: 1em;
+    }
+    .btn{
+        font-size: 1em;
+        padding: 15px;
+    }
+        .btn img{
+            height: 20px;
+            width: 20px;
+        }
+
+
+
+        .attribution{
+           
+           font-size: 12px;
+           padding: 10px;
+
+        }
+}
